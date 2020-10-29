@@ -1,2 +1,1 @@
-# detections
-Threat intelligence and threat detection indicators (IOC, IOA)
+This repo contains threat intelligence information and threat detection indicators (IOC, IOA).
