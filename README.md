@@ -4,4 +4,4 @@ This repo contains threat intelligence information and threat detection indicato
 
 | Content | Indicators | Communication |
 | :--- | :--- | :--- |
-| Ryuk CobalStrike C2's |  [cobaltstrike_c2s.txt](https://github.com/swisscom/detections/blob/main/RYUK/cobaltstrike_c2s.txt) | [Tweet](https://twitter.com/swisscom_csirt/status/1321777140992516096) |
+| Ryuk CobalStrike C2's |  [cobaltstrike_c2s.txt](https://github.com/swisscom/detections/blob/main/RYUK/cobaltstrike_c2s.txt), [ryuk.yar](https://github.com/swisscom/detections/blob/main/RYUK/ryuk.yar) | [Tweet](https://twitter.com/swisscom_csirt/status/1321777140992516096) |
