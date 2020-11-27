@@ -1,0 +1,6 @@
+# Trickbot
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"TROJAN Win32/Trickbot Data Exfiltration"; flow:established,to_server; content:"POST"; http_method; content:"name=\"proclist\"";content:"svchost.exe";content:"name=\"sysinfo\"";content:"ipconfig";content:"net view /all";content:"nltest";distance:0; reference:md5,f99adab7b2560097119077b99aceb40d; classtype:trojan-activity; sid:1001001;rev:1; )
+
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"TROJAN Win32/Trickbot Checkin"; flow:established,to_server; content:"POST"; http_method; content:"/yas8/";http_uri;content:"User-Agent|3a 20|Winhttp 1/0"; http_header; reference:md5,f99adab7b2560097119077b99aceb40d; classtype:trojan-activity; sid:1001002;rev:1; )
+
+
